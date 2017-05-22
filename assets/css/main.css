@@ -1,0 +1,81 @@
+/*Panda Panda*/
+body{
+	background-color: pink;
+	margin: 0;
+	font-family: 'Lato';
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+}
+li a:hover{
+	background-color: #ffe900;
+	color: #333;
+}
+
+.fotos-pandas{
+	position: relative;
+}
+.fotos-pandas a{
+  	position: absolute;
+  	color: yellow;
+  	text-decoration: none;
+  	font-size: 20px;
+  	margin: 50px;
+}
+.fotitos{
+	margin: 50px;
+}
+.fotitos.no{
+	display: none;
+}
+.textos{
+	width: 80%;
+
+}
+#lorem1{
+	float: left;
+	color: #333;
+	width: 45%;
+	padding-left: 20px;
+}
+#lorem2{
+	float: right;
+	color: #333;
+	width: 45%;
+}
+#lorem1.no,#lorem2.no {
+	display: none;
+}
+
+#origen, #extincion, #restaurar{
+	padding: 10px 80px;
+	font-size: 16px;
+	background-color: yellow;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 8px;
+}
+#origen, #extincion, #restaurar{
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+}
+
+#origen:hover, #extincion:hover, #restaurar:hover {
+    background-color: #333; 
+    color: white;
+}
